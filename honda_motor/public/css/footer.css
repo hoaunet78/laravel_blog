@@ -1,0 +1,293 @@
+/* reset */
+#footer * {
+  margin: 0;
+  padding: 0;
+  font: 10px "���C���I" , "Hiragino Kaku Gothic ProN", "�q���M�m�p�S ProN W3", "�q���M�m�p�S Pro W3", Osaka, "Meiryo", "�l�r �o�S�V�b�N", sans-serif;
+  line-height: 16px !important;
+  visibility: visible;
+  height: auto;
+}
+#footer table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#footer fieldset, #footer img {
+  border: 0;
+}
+
+#footer address, #footer caption, #footer cite, #footer code, #footer dfn, #footer em, #footer strong, #footer th, #footer var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+#footer ol, #footer ul {
+  list-style: none;
+  display: block;
+}
+#footer ul li{
+	float:none;
+	list-style-type: none;
+}
+
+#footer caption, #footer th {
+  text-align: left;
+}
+
+#footer input, #footer textarea, #footer select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+#footer input, #footer textarea, #footer select {
+  *font-size: 100%;
+}
+
+
+/* footer */
+#footer {
+	background:#f0f0f0 url(../images/bg_footer_border.png) repeat-x 0 0 ;
+	padding: 21px 0px 0px 0px;
+	color:#222222;
+	text-align:center;
+	clear:both;
+}
+#footer a {
+	color:#222222;
+	text-decoration:none;
+}
+#footer a:hover {
+	color:#222222;
+	text-decoration:underline;
+}
+#footer .footer-contents{
+	margin:0px auto 0px auto;
+	width: 980px;
+	overflow:hidden;
+	text-align:left;
+}
+
+#footer a:hover img {
+	filter: alpha(opacity=50); -moz-opacity:0.5; opacity:0.5;
+}
+
+/* clear */
+#footer .footer-top,
+#footer .footer-top .footer-sns ul,
+#footer .footer-links,
+#footer .footer-ext,
+#footer .footer-ext .footer-nav-second {
+  *zoom: 1;
+}
+
+#footer .footer-top:before, #footer .footer-top:after,
+#footer .footer-top .footer-sns ul:before, #footer .footer-top .footer-sns ul:after,
+#footer .footer-links:before, #footer .footer-links:after,
+#footer .footer-ext:before, #footer .footer-ext:after,
+#footer .footer-ext .footer-nav-second:before, #footer .footer-ext .footer-nav-second:after {
+	content: " ";
+	display: table;
+}
+#footer .footer-top:after,
+#footer .footer-top .footer-sns ul:after,
+#footer .footer-links:after,
+#footer .footer-ext:after,
+#footer .footer-ext .footer-nav-second:after {
+	clear: both;
+}
+
+/* top */
+#footer .footer-top {
+	height: 80px;
+}
+/* bottom */
+#footer .footer-bottom{
+	height: 17px;
+	background:#f0f0f0 url(../images/bg_footer_bottom.png) repeat-x 0 0 ;
+}
+
+/*logo*/
+#footer .footer-top .footer-logo{
+	width: 570px;
+	float:left;
+}
+
+/*sns*/
+#footer .footer-top .footer-sns{
+	width: 274px;
+	float:left;
+}
+
+#footer .footer-top .footer-sns ul li {
+	float:left;
+	width:29px;
+	margin-right:16px
+}
+
+#footer .footer-top .footer-sns p {
+	margin-top:9px;
+}
+
+/*sns*/
+#footer .footer-top .footer-fb {
+	float:left;
+	width:130px;
+	overflow:hidden;
+}
+
+#footer .footer-top .footer-fb .footer-fblogo{
+	margin-bottom: 6px;
+}
+
+/*links*/
+#footer .footer-links {
+	padding-left:13px;
+}
+
+#footer .footer-links .footer-block-01 {
+	float:left;
+	width: 173px;
+}
+#footer .footer-links .footer-block-02 {
+	float:left;
+	width: 168px;
+}
+#footer .footer-links .footer-block-03 {
+	float:left;
+	width: 143px;
+}
+#footer .footer-links .footer-block-04 {
+	float:left;
+	width: 167px;
+}
+#footer .footer-links .footer-block-05 {
+	float:left;
+	width: 170px;
+}
+#footer .footer-links .footer-block-06 {
+	float:left;
+	width: 138px;
+}
+
+#footer .footer-links h4,
+#footer .footer-links h4 a  {
+	font-size: 12px !important;
+	
+	font-weight:bold;
+	margin-bottom: 9px !important;
+	visibility: visible;
+	display:block;
+	background-color:#f0f0f0;
+	color:#222222 !important;
+	padding:0 !important;
+}
+
+#footer .footer-links ul{
+	margin-bottom: 16px;
+}
+
+#footer .footer-links ul li{
+	line-height: 16px;
+}
+
+#footer .footer-links ul li a{
+	font-size:12px;
+	text-decoration: none;
+}
+
+#footer .footer-links ul li a:hover{
+	font-size:12px;
+	text-decoration: underline;
+}
+
+#footer .footer-links .footer-block-06 h4 {
+	padding-left:4px;
+}
+
+#footer .footer-links .footer-block-06 ul{
+	padding-left:4px;
+}
+
+/* chronicle */
+#footer .footer-links .footer-block-06 .footer-chronicle{
+	border-top:solid 1px #313131;
+	padding-top:24px;
+}
+
+#footer .footer-links .footer-block-06 .footer-chronicle-logo{
+	margin-bottom: 9px;
+}
+
+#footer .footer-links .footer-block-06 .footer-calendar-area{
+}
+
+#footer-calendar-head p {
+	padding-bottom: 2px;
+	border-bottom:dotted 1px #dbdbdb;
+	margin-bottom: 3px;
+}
+
+#footer-calendar-head p a{
+	font-weight: bold;
+	font-size: 10px;
+}
+
+#footer-calendar-container table {
+	border-collapse: collapse;
+	border-spacing: 2px;
+}
+
+#footer-calendar-container table td {
+	width:20px;
+	text-align:center;
+	font-size: 7px;
+	height: 15px;
+	vertical-align: middle;
+	color:#222222;;
+}
+
+#footer-calendar-container table td.footer-calendar-cell-today {
+	background-color:#EEBCBC;
+}
+
+#footer-calendar-container table td.footer-calendar-cell-sun a {
+	color:#f03030;
+}
+
+#footer-calendar-container table td.footer-calendar-cell-sat a {
+	color:#0090f0;
+}
+
+/* extra */
+#footer .footer-ext .footer-copyright {
+	float:left;
+	width: 450px;
+}
+#footer .footer-ext .footer-copyright p{
+	font-size: 10px;
+	color:#222222 !important;
+}
+
+#footer .footer-ext .footer-nav-second li{
+	float:right;
+	font-size: 10px;
+}
+
+#footer .footer-ext .footer-nav-second li a {
+	background: url(../images/bg_footer_ext_arrow.png) no-repeat 0 50%;
+	font-size: 10px;
+	padding-left: 8px;
+	margin-left: 11px;
+}
+
+
+
+
+
+
+
+@media print{
+  .footer-top,.footer-links,.footer-nav-second li{
+	 display:none;
+  }
+}

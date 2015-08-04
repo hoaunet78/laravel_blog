@@ -1,0 +1,133 @@
+@CHARSET "ISO-8859-1";
+#tab {
+	padding: 0px;
+	background-image: url(../images/F_navi_BG2.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 90px;
+	width: 615px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+#tab li {
+	float: left;
+	list-style: none;
+	cursor: pointer;
+	text-align: center;
+	padding: 0px;
+}
+.disnon {
+  display: none;
+}
+#lcw .content_wrap .naviname_area {
+	padding-top: 20px;
+}
+.gathers_navi .right .xl150 {
+	color: #009;
+	font-weight: bold;
+}
+.toggle1 {
+	background-image: url(../images/F_naviA2.jpg);
+	background-position: top;
+	height: 90px;
+	width: 179px;
+}
+.W1 {
+	height: 90px;
+	width: 179px;
+}
+.W2 {
+	height: 47px;
+	width: 101px;
+}
+.toggle1.select .non { display: none;}
+.toggle2 {
+	background-image: url(../images/F_naviB.jpg);
+	background-position: top;
+	height: 47px;
+	width: 101px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.toggle2.select .non { display: none;}
+.toggle3 {
+	background-image: url(../images/F_naviC.jpg);
+	background-position: top;
+	height: 47px;
+	width: 101px;
+	margin-top: 33px;
+	margin-left: 52px;
+}
+.toggle3.select .non { display: none;}
+.toggle4 {
+	background-image: url(../images/F_naviD.jpg);
+	background-position: top;
+	height: 47px;
+	width: 101px;
+	margin-top: 33px;
+	margin-left: 20px;
+}
+.toggle4.select .non { display: none;}
+.toggle5 {
+	background-image: url(../images/F_naviE.jpg);
+	background-position: top;
+	height: 47px;
+	width: 101px;
+	margin-top: 33px;
+	margin-left: 20px;
+}
+.toggle5.select .non { display: none;}
+.toggle6 {
+	background-image: url(../images/F_naviF.jpg);
+	background-position: top;
+	height: 47px;
+	width: 101px;
+	margin-top: 30px;
+	margin-left: 1px;
+}
+.toggle6.select .non { display: none;}
+.cot {
+	color: #C00;
+}
+.ppt20 {
+	height: 20px;
+}
+.mb15 {
+	margin-bottom: 15px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.mt05 {
+	margin-top: 5px;
+}
+.btn_aria {
+	background-image: url(../images/DA_img07.jpg);
+	background-position: left top;
+	background-repeat: repeat-y;
+	padding-left: 20px;
+	padding-right: 40px;
+}
+.btn_aria ul li {
+	float: left;
+	margin-right: 8px;
+}
+.btn_aria .both {
+	clear: both;
+	height: 15px;
+}
+.btn_aria a:hover img {
+	filter:alpha(opacity=70); 
+    -moz-opacity: 0.7; 
+    opacity: 0.7;
+}
+.btn_aria .fL {
+	float: left;
+	width: 274px;
+}
+.btn_aria .fR {
+	float: right;
+	width: 274px;
+}

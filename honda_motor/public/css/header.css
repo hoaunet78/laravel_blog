@@ -1,0 +1,497 @@
+/* reset */
+body{
+	font-size: 80%;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#ghcontainer li {
+    border: 0 none;
+}
+/*contents*/
+#contents{
+	width: 700px;
+	text-align: left;
+	line-height: 130%;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	clear: both;
+}
+img {
+	border: 0px none;
+}
+
+.frame-globalheader * {
+  margin: 0;
+  padding: 0;
+  line-height:1;
+  height:auto;
+  visibility:visible;
+  font: 10px "メイリオ" , "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "ヒラギノ角ゴ Pro W3", Osaka, "Meiryo", "ＭＳ Ｐゴシック", sans-serif;
+
+}
+.frame-globalheader img {
+  vertical-align:top;
+}
+
+.frame-globalheader table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.frame-globalheader table tr {
+  margin: 0;
+  padding: 0;
+  
+}
+.frame-globalheader table tr td{
+  margin: 0;
+  padding: 0;
+}
+
+.frame-globalheader fieldset, .frame-globalheader img {
+  border: 0;
+}
+
+.frame-globalheader address, .frame-globalheader caption, .frame-globalheader cite, .frame-globalheader code, .frame-globalheader dfn, .frame-globalheader em, .frame-globalheader strong, .frame-globalheader th, .frame-globalheader var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.frame-globalheader ol, .frame-globalheader ul {
+  list-style: none;
+  display: block;
+}
+.frame-globalheader ul li{
+	float:none;
+	list-style-type: none;
+}
+
+.frame-globalheader caption, .frame-globalheader th {
+  text-align: left;
+}
+
+.frame-globalheader input, .frame-globalheader textarea, .frame-globalheader select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.frame-globalheader input, .frame-globalheader textarea, .frame-globalheader select {
+  *font-size: 100%;
+}
+.frame-globalheader a:hover img {
+	filter: alpha(opacity=100); -moz-opacity:1.0; opacity:1.0;
+}
+	
+/* clear */
+.frame-globalheader .frame-globalheader-inner, .frame-globalheader .navs-1, .frame-globalheader .navs-1 ul, .frame-globalheader .navs-2 ul.gns,.frame-globalheader .hd_search_wrap div
+{
+  *zoom: 1;
+}
+.frame-globalheader .frame-globalheader-inner:before, .frame-globalheader .navs-1:before, .frame-globalheader .navs-1 ul:before, .frame-globalheader .navs-2 ul.gns:before, .frame-contents:before, .mod-snsbtns ul:after, .mod-hondasns .top:after, .mod-infoblk .mod-sns ul:after, .mod-infoblk.L2 .mod-top:after, .frame-globalheader .hd_search_wrap div:after,
+.frame-globalheader .frame-globalheader-inner:after, .frame-globalheader .navs-1:after, .frame-globalheader .navs-1 ul:after, .frame-globalheader .navs-2 ul.gns:after, .frame-globalheader .hd_search_wrap div:after
+{
+  content: " ";
+  display: table;
+}
+.frame-globalheader .frame-globalheader-inner:after, .frame-globalheader .navs-1:after, .frame-globalheader .navs-1 ul:after, .frame-globalheader .navs-2 ul.gns:after, .frame-globalheader .hd_search_wrap div:after
+{
+  clear: both;
+
+}
+
+/* header */
+.frame-globalheader {
+  background:#fff url(../images/header_bg.png) repeat-x 0 0;
+  width: 100%;
+  height: 67px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: 10000;
+  text-align:center;
+  position:relative;
+}
+.frame-globalheader .frame-globalheader-bg {
+  min-width: 980px;
+  max-width:10000px;
+  background: url(../images/sprites_gnav.png) no-repeat center 0;
+  height: 60px;
+  position: relative;
+  margin: 0 auto;
+}
+.frame-globalheader .frame-globalheader-inner {
+  width: 980px;
+  height: 60px;
+  position: relative;
+  margin: 0 auto;
+}
+.frame-globalheader h1 a{
+  position:absolute;
+  top:5px;left:0px;
+  display:block;
+  width:151px;height:55px;
+  text-indent:-9999px;
+}
+.frame-globalheader .navs-1 {
+  height: 20px;
+  overflow:hidden;
+}
+/*
+.frame-globalheader .navs-1 .navs-1-inner {
+  width: 698px;
+  float: right;
+}
+.frame-globalheader .navs-1 li {
+}
+*/
+
+.frame-globalheader .navs-1 li.nav a {
+  position:absolute;
+  left:0;top:0;
+  width: 70px;
+  height: 20px;
+  background: url(../images/sprites_gnav.png) no-repeat -118px 0;
+  display: block;
+  border: 0;
+  text-indent: -9999px;
+}
+
+.frame-globalheader .navs-1 li.n-0 a {
+  width: 96px;
+  left:541px;
+  background-position: -551px 0;
+}
+.frame-globalheader .navs-1 li.n-0 a:hover {
+  background-position: -551px -60px;
+}
+
+.frame-globalheader .navs-1 li.n-1 a {
+	width:88px;
+	left:639px;
+  background-position: -649px 0;
+}
+.frame-globalheader .navs-1 li.n-1 a:hover {
+  background-position: -649px -60px;
+}
+
+.frame-globalheader .navs-1 li.n-2 a {
+	width:56px;
+	left:729px;
+  background-position: -739px 0;
+}
+.frame-globalheader .navs-1 li.n-2 a:hover {
+  background-position: -739px -60px;
+}
+.frame-globalheader .navs-1 li.n-3 a {
+	width:57px;
+	left:787px;
+  background-position: -797px 0;
+}
+.frame-globalheader .navs-1 li.n-3 a:hover {
+  background-position: -797px -60px;
+}
+.frame-globalheader .navs-1 li.n-4 a {
+	width:67px;
+	left:845px;
+  background-position: -855px 0;
+}
+.frame-globalheader .navs-1 li.n-4 a:hover {
+  background-position: -855px -60px;
+}
+.frame-globalheader .navs-1 li.n-5 a {
+	width:67px;
+	left:913px;
+  background-position: -923px 0;
+}
+.frame-globalheader .navs-1 li.n-5 a:hover {
+  background-position: -923px -60px;
+}
+
+
+.frame-globalheader .navs-2 ul.gns {
+  width: 100%;
+  position:relative;
+}
+.frame-globalheader .navs-2 li.gn {
+	position:absolute;
+	left:0;top:0;
+}
+.frame-globalheader .navs-2 li.gn a.gn_a {
+	width: 125px;
+	height: 40px;
+	background: url(../images/sprites_gnav.png) no-repeat -0px -20px;
+	display: block;
+	border: 0;
+	text-indent: -9999px;
+}
+.frame-globalheader .navs-2 li.gn a.gn_a:hover {
+  background-position: 0 -80px;
+}
+.frame-globalheader .navs-2 li.gn.current a.gn_a {
+  background-position: 0 -80px;
+}
+
+/*
+	グロナビの赤いメインメニューの位置や大きさ
+*/
+.frame-globalheader .navs-2 li#gnav_1 {
+	left:151px;
+	z-index:600;
+}
+.frame-globalheader .navs-2 li#gnav_1 a.gn_a {
+  width: 104px;
+  background-position: -161px -20px;
+}
+.frame-globalheader .navs-2 li#gnav_1.current a.gn_a {
+  width: 105px;
+  background-position: -161px -80px;
+}
+
+.frame-globalheader .navs-2 li#gnav_2 {
+	left:255px;
+	z-index:500;
+}
+.frame-globalheader .navs-2 li#gnav_2 a.gn_a {
+  width: 110px;
+  background-position: -265px -20px;
+}
+.frame-globalheader .navs-2 li#gnav_2.current a.gn_a {
+  width: 111px;
+  background-position: -265px -80px;
+}
+
+.frame-globalheader .navs-2 li#gnav_3 {
+	left:365px;
+	z-index:400;
+}
+.frame-globalheader .navs-2 li#gnav_3 a.gn_a {
+  width: 110px;
+  background-position: -375px -20px;
+}
+.frame-globalheader .navs-2 li#gnav_3.current a.gn_a {
+  width: 111px;
+  background-position: -375px -80px;
+}
+
+.frame-globalheader .navs-2 li#gnav_4 {
+	left:475px;
+	z-index:300;
+}
+.frame-globalheader .navs-2 li#gnav_4 a.gn_a {
+  width: 110px;
+  background-position: -485px -20px;
+}
+.frame-globalheader .navs-2 li#gnav_4.current a.gn_a {
+  width: 111px;
+  background-position: -485px -80px;
+}
+
+.frame-globalheader .navs-2 li#gnav_5 {
+	left:585px;
+	z-index:200;
+}
+.frame-globalheader .navs-2 li#gnav_5 a.gn_a {
+  width: 110px;
+  background-position: -595px -20px;
+}
+.frame-globalheader .navs-2 li#gnav_5.current a.gn_a {
+  width: 111px;
+  background-position: -595px -80px;
+}
+
+.frame-globalheader .navs-2 li#gnav_6 {
+	left:695px;
+	z-index:100;
+}
+.frame-globalheader .navs-2 li#gnav_6 a.gn_a {
+  width: 110px;
+  background-position: -705px -20px;
+}
+.frame-globalheader .navs-2 li#gnav_6.current a.gn_a {
+  width: 111px;
+  background-position: -705px -80px;
+}
+
+
+/*
+	グロナビのグレーのプルダウンメニュー
+*/
+.frame-globalheader .navs-2 .subnav {
+  position: absolute;
+  left: 0px;
+  display: none;
+}
+.frame-globalheader .navs-2 .subnav ul {
+  padding: 0 10px 11px 4px;
+	padding:0;
+}
+.frame-globalheader .navs-2 .subnav li {
+  line-height:0px;
+	text-align:left;
+	width:170px !important;
+}
+.frame-globalheader .navs-2 .subnav li a{
+	text-align:left;
+	padding:0 15px 0 23px;
+	display:block;
+	font-size:11px !important;
+	font-weight:bold;
+	line-height:35px;
+	height:35px;
+	vertical-align:middle;
+	background:url(../images/subnav_icon.png) no-repeat 0 0;
+	background-color:#8e8e8e;
+	background-position:14px 13px;
+	border-top:1px solid #b1b1b1;
+	color:#ffffff;
+	text-decoration:none;
+	white-space: nowrap;
+	/*width:170px;*/
+}
+.frame-globalheader .navs-2 .subnav li a.top{
+	border:none;
+	background-color:#595959;
+}
+
+.frame-globalheader .navs-2 .subnav li a:hover,
+.frame-globalheader .navs-2 .subnav li a.top:hover{
+	color:#3c3c3c;
+	background-color:#fff;
+	background-position:14px -23px;
+}
+.frame-globalheader .navs-2 .subnav li.first-child,
+.frame-globalheader .navs-2 .subnav li.last-child {
+  padding-bottom: 0;
+}
+
+
+.frame-globalheader .navs-2 li#gnav_1 .subnav {
+  position: absolute;
+  /*left: -4px;*/
+  width: 139px;
+  background: url(../images/bg_pulldown1.png) no-repeat 0 bottom;
+}
+
+.frame-globalheader .navs-2 li#gnav_2 .subnav {
+  background: url(../images/bg_pulldown3.png) no-repeat 0 bottom;
+  width: 138px;
+}
+
+.frame-globalheader .navs-2 li#gnav_3 .subnav {
+  background: url(../images/bg_pulldown3.png) no-repeat 0 bottom;
+  width: 138px;
+}
+
+.frame-globalheader .navs-2 li#gnav_4 li {
+}
+.frame-globalheader .navs-2 li#gnav_4 .subnav {
+  background: url(../images/bg_pulldown4.png) no-repeat 0 bottom;
+  width: 151px;
+}
+
+.frame-globalheader .navs-2 li#gnav_5 li {
+}
+.frame-globalheader .navs-2 li#gnav_5 .subnav {
+  background: url(../images/bg_pulldown6.png) no-repeat 0 bottom;
+  width: 150px;
+}
+.frame-globalheader .navs-2 li#gnav_6 li {
+  background: url(../images/bg_bar_subnav2.png) no-repeat 0 bottom;
+}
+.frame-globalheader .navs-2 li#gnav_6 .subnav {
+  background: url(../images/bg_pulldown6.png) no-repeat 0 bottom;
+  width: 150px;
+    /*left:-4px;*/
+}
+
+/*
+ 検索ボックス
+*/
+
+.frame-globalheader .hd_search_wrap {
+	position:absolute;
+	left:823px;top:9px;
+	width: 141px;
+}
+
+.frame-globalheader .hd_search_wrap div.search_icon {
+  float:left;
+  width:25px;
+  height:20px;
+  background-color:white;
+  overflow:hidden;
+}
+
+.frame-globalheader .hd_search_wrap div.search_box {
+  float:left;
+  width:121px;
+  height:20px;
+  background:url(../images/search_bg.png) no-repeat;
+  border:none;
+  overflow:hidden;
+  position:relative;
+}
+
+.frame-globalheader .hd_search_wrap div.search_box input {
+  position:absolute;
+  left:0px;
+  width: 116px;
+  font-size: 10px;
+  outline: none;
+  padding: 4px 0 0 5px;
+  margin:0px;
+  background:transparent;
+  border:none;
+  vertical-align:middle;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+  color:#999999;
+}
+
+.frame-globalheader .hd_search_wrap div.search_btn_area {
+  float:left;
+  width:19px;
+  height:20px;
+}
+
+
+.frame-globalheader .hd_search_wrap .i-btn {
+  width: 64px;
+  vertical-align:middle;
+}
+
+
+
+/* contents area */
+/*
+#contents {
+	width: 700px;
+	margin: 0px auto 0px auto;
+	text-align: left;
+	line-height: 130%;
+	padding: 0;
+	clear: both;
+	*zoom: 1;
+	position:relative;
+}
+
+#contents:before, #contents:after {
+	content: " ";
+	display: table;
+}
+#contents:after 
+{
+	clear: both;
+}
+*/
+
+
+      iframe#suggest_frame0{
+          z-index: 99999;
+      }
+
+@media print{
+  #ghcontainer{
+    display:none;
+  }
+}

@@ -1,0 +1,41 @@
+@charset "Shift_JIS";
+
+body {font-family: "メイリオ", "ＭＳ Ｐゴシック", sans-serif; }
+
+.pt10{font-size: 10px;}
+.pt11{font-size: 11px;}
+.pt12{font-size: 12px;}
+
+.xs100{font-size:80%;line-height:100%;}
+.xs125{font-size:80%;line-height:130%;}
+.xs150{font-size:80%;line-height:150%;}
+
+.s100{font-size:100%;line-height:100%;}
+.s125{font-size:100%;line-height:150%;}
+.s150{font-size:100%;line-height:170%;}
+.s180{font-size:100%;line-height:180%;}
+.s200{font-size:100%;line-height:200%;}
+
+.m100{font-size:140%;line-height:100%;}
+.m125{font-size:140%;line-height:130%;}
+.m150{font-size:140%;line-height:150%;}
+
+.l100{font-size:180%;line-height:100%;}
+.l125{font-size:180%;line-height:130%;}
+.l150{font-size:180%;line-height:150%;}
+
+.xl100{font-size:220%;letter-spacing:-0.05em;line-height:100%;}
+.xl125{font-size:220%;letter-spacing:-0.05em;line-height:130%;}
+.xl150{font-size:220%;letter-spacing:-0.05em;line-height:150%;}
+
+.m1{font-size:225%;line-height:110%;color: #333;}
+
+.m2{font-size:140%;line-height:125%;color: #333;}
+
+.p1{font-size:110%;line-height:150%;color: #797979;}
+
+.p2{font-size:100%;line-height:150%;color: #333;}
+
+.c1{font-size:90%;letter-spacing:0.01em;line-height:150%;color: #545454;}
+
+.c2{font-size:90%;letter-spacing:0.01em;line-height:150%;color: #797979;}

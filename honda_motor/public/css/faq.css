@@ -1,0 +1,105 @@
+/* CSS Document */
+#navi_contents {
+	width: 900px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px!important;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#internavi_contents .waku {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-left-color: #CCC;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	width: 898px !important;
+	width: 900px;
+	background-color: #FFF;
+}
+div.ua_box{
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	text-align: center;
+	width: 898px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+
+div.guide_contents{
+	text-align: center;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-bottom: 0px;
+	padding-left: 0;
+}
+.guide_contents table {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+.guide_contents table {
+	border-spacing:0;
+	border-collapse:separate;
+	/border-collapse:collapse; /* ie6,7 */
+	word-break:break-all;
+	word-wrap:break-word;
+}
+
+div.guide_contents div.plpr15{
+	padding:0 15px;
+}
+
+
+div.guide_contents strong{
+	font-weight:bold;
+}
+
+div.guide_contents .right{
+	text-align:right;
+}
+
+div.guide_contents .center{
+	text-align:center;
+}
+
+div.guide_contents table.q td{
+padding:2px;
+}
+.gop {
+	margin-top: 20px;
+	text-align: right;
+	width: 900px;
+}
+
+
+div.guide_contents .mb7{
+	margin-bottom:7px;
+}
+
+div.guide_contents .mb15{
+	margin-bottom:15px;
+}
+
+div.guide_contents .mb20{
+	margin-bottom:20px;
+}
+
+div.guide_contents .mb30{
+	margin-bottom:30px;
+}

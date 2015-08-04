@@ -1,0 +1,372 @@
+#internavi_header #gNavi {
+	background-image: url(../images/btn_area_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	height: 58px;
+}
+#internavi_header #gNavi #box {
+	width: 980px !important;
+	margin: 0 auto;
+}
+#internavi_header #gNavi #box .nb3 {
+	float: left;
+	margin-top: 7px;
+	margin-left: 4px;
+}
+#internavi_header #gNavi #box .nb4 {
+	float: right;
+	margin-top: 7px;
+}
+#internavi_header #gNavi #box .nb5 {
+	float: left;
+	margin-top: 0px;
+}
+#dropmenu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0px;
+}
+#dropmenu li {
+	position: relative;
+	width: 220px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	z-index: 160;
+}
+#dropmenu li a {
+	display: block;
+	margin: 0;
+	padding: 0px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	text-decoration: none;
+}
+#dropmenu li ul {
+	display: none;
+  list-style: none;
+  position: absolute;
+  z-index: 100;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#dropmenu li ul li {
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .2s;
+	margin-bottom: 1px;
+}
+#dropmenu li ul li a {
+	text-align: left;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 1.4;
+	text-align: left;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #999999;
+	border-left-color: #999999;
+	background-color: #FFF;
+	color: #000;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+	font-family: "メイリオ",Meiryo, sans-serif;
+}
+
+
+/* ======== 子メニュー用 START ======== */
+
+#dropmenu li ul li.startline_CT a{
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #3d5486;
+	padding-top: 20px;
+	height: 35px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#dropmenu li ul li.startline_CT2 a {
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #3d5486;
+	padding-top: 13px;
+	height: 42px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#dropmenu li ul li.one a{
+	padding-top: 23px;
+	height: 35px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#dropmenu li ul li.two a{
+	padding-top: 13px;
+	height: 45px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#dropmenu li ul li.one_top a{
+	padding-top: 22px;
+	height: 35px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+#dropmenu li ul li.two_top a{
+	padding-top: 12px;
+	height: 45px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+#dropmenu li ul li.one_end a{
+	padding-top: 22px;
+	height: 35px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+#dropmenu li ul li.two_end a{
+	padding-top: 12px;
+	height: 45px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+/* ======== 子メニュー用 END ======== */
+
+/* ======== 孫メニュー用 START ======== */
+#dropmenu li ul li ul li.one a{
+	padding-top: 23px;
+	height: 35px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#dropmenu li ul li ul li.two a{
+	padding-top: 13px;
+	height: 45px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#dropmenu li ul li ul li.one_top a{
+	padding-top: 22px;
+	height: 35px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+#dropmenu li ul li ul li.two_top a{
+	padding-top: 12px;
+	height: 45px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+#dropmenu li ul li ul li.one_end a{
+	padding-top: 22px;
+	height: 35px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+
+#dropmenu li ul li ul li.two_end a{
+	padding-top: 12px;
+	height: 45px;
+	*height: 58px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+
+#dropmenu li ul li.two_end ul li a {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+#dropmenu li ul li.one_end ul li a {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999999;
+}
+
+#dropmenu li ul li.two_end ul li.one_end a{
+	padding-top: 22px;
+	height: 35px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+#dropmenu li ul li.two_end ul li.two_end a{
+	padding-top: 12px;
+	height: 45px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+#dropmenu li ul li.one_end ul li.one_end a{
+	padding-top: 22px;
+	height: 35px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+#dropmenu li ul li.one_end ul li.two_end a{
+	padding-top: 12px;
+	height: 45px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+
+#dropmenu li ul li.startline_CT ul li.one_end a{
+	padding-top: 22px;
+	height: 35px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	border-top-style: none;
+}
+#dropmenu li ul li ul li.one_top-end a  {
+	padding-top: 22px;
+	height: 35px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #999;
+}
+/* ======== 孫メニュー用 END ======== */
+
+/* ======== マウスオーバー設定等 ======== */
+#dropmenu > li:hover > a {  background-color: #ebf2f9; }
+#dropmenu > li:hover li:hover > a {  background: #ebf2f9; }
+#dropmenu li:hover > ul > li {
+  overflow: visible;
+  height: 58px;
+}
+#dropmenu li ul li ul {
+	top: 0;
+	left: 100%;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: transparent;
+}
+
+#dropmenu li ul li ul li a {  background: #fff; }
+#dropmenu li:hover ul li ul li:hover > a {  background: #ebf2f9; }
+
+#dropmenu li a:hover {
+	text-decoration: underline;
+	color: #039;
+}
+
+#dropmenu li ul li.midashi {
+	background-image: url(../images/navi02_sub01.jpg);
+	background-position: center 3px;
+}
+#dropmenu li ul li.midashi a {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #999999;
+	border-left-color: #999999;
+	background-color: transparent;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+#dropmenu li ul li.midashi:hover a {
+	background-color: transparent;
+
+}
+
+#dropmenu li ul li.midashi2 {
+	background-image: url(../images/navi02_sub02.jpg);
+	background-position: center top;
+}
+#dropmenu li ul li.midashi2 a {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #999999;
+	border-left-color: #999999;
+	background-color: transparent;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+#dropmenu li ul li.midashi2:hover a {
+	background-color: transparent;
+
+}
+
+#dropmenu li ul li .arrow:hover a{
+	background-image: url(../images/arrow.png);
+	background-position: 195px center;
+	background-repeat: no-repeat;
+	background-color: #ebf2f9;
+	text-decoration: none;
+	color: #333;
+}
+
+#dropmenu li ul .two a .xs150.glay {
+	color: #666;
+}
